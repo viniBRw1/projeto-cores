@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", sans-serif;
+}
+header{
+	display: flex;
+	justify-content: center;
+	background-color: #706fd3;
+}
+section{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 20px;
+	height: 75vh;
+	background-color: #2c2c54;
+}
+footer{
+	background-color: #706fd3;
+	display: flex;
+	height: 145px;
+	justify-content: center;
+	align-items: center;
+}
+footer p {
+	padding-left: 10px;
+}
+.cores{
+	height: 60%;
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #40407a;
+	border: #706fd3 solid 1px;
+	border-radius: 10px;
+
+
+}
+.cors{
+	width: 10%;
+	height: 20%;
+	border: #706fd3 solid 1px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+
+
+}
+.corsV{
+	width: 10%;
+	height: 20%;
+	border: solid black 1px;
+	display: flex;
+	background-color: red;
+	color: white;
+	justify-content: center;
+	align-items: center;
+}
+.corsR{
+	width: 10%;
+	height: 20%;
+	border: solid black 1px;
+	display: flex;
+	background-color: purple;
+	color: lightpink;
+	justify-content: center;
+	align-items: center;
+}
+.corsA{
+	width: 10%;
+	height: 20%;
+	border: solid black 1px;
+	display: flex;
+	background-color: yellow;
+	color: black;
+	justify-content: center;
+	align-items: center;
+}
+.cores-menu{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 20vw;
+	height: 15vh;
+	background-color: #40407a;
+	border: #706fd3 solid 1px;
+	border-radius: 10px;
+}
+.cores-menu button{
+	border: none;
+	border: red 1px solid;
+	background-color: white;
+	border-radius: 20px;
+	height:20px ;
+	width:20px ;
+	transition: background-color 2s;
+}
+.btn-v:hover{
+	border: black solid 1px;
+	background-color: red;
+	height: 25px;
+	width: 25px;
+}
+.btn-a:hover{
+	background-color: yellow;
+	border-color: black;
+	height: 25px;
+	width: 25px;
+}
+.btn-r:hover{
+	background-color: purple;
+	border-color: black;
+	height: 25px;
+	width: 25px;
+}
